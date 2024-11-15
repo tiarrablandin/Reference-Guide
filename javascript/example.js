@@ -4,6 +4,8 @@ const user = "Tiarra";
 //Creating variables
 let message = "Hello World!";
 
+////////////////////////////////////////////////////////////////////////////////////////
+
 //Defining function
 function example() {
   console.log("hello world!");
@@ -15,6 +17,8 @@ function example() {
 //Calling function
 example();
 
+////////////////////////////////////////////////////////////////////////////////////////
+
 //Defining function with parameters
 function exampleTwo(user, message) {
   console.log(user);
@@ -22,4 +26,18 @@ function exampleTwo(user, message) {
 }
 
 //Calling function with parameters
-example("Tiarra", "Hello USA!");
+exampleTwo("Tiarra", "Hello World!");
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+//Defining function with parameters using a return
+function exampleThree(user, message) {
+
+  return "I am" + user + ". " + message;
+}
+
+//Calling function with parameters using a return
+const exampleThree = exampleThree("Tiarra", "Hello World")
+console.log(exampleThree);
+
+/////////////////////////////////////////////////////////////////////////////////////////
