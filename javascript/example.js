@@ -153,7 +153,29 @@ const [firstName1, lastName1] = ["Tiarra", "Blandin"]
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-//
+// Destructuring Objects
+
+const user2 = {
+  name: "Tiarra",
+  age: 34
+};
+
+const name1 = user.name;
+const age1 = user.age;
+
+// OR
+
+const {name2, age2} = {
+  name2: "Tiarra",
+  age2: 34
+};
+
+// With Alias
+
+const {name3: nickname, age3} = {
+  name3: "Tiarra",
+  age3: 34
+};
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
