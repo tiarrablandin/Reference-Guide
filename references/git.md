@@ -1,5 +1,13 @@
 # Git Commands
 
+* ```git --version``` - check git version
+* ``` brew install git``` - update git version
+
+* ```git config --global user.name "John Doe"``` - configure git username
+* ```git config user.name``` - check username
+* ```git config --global user.email example@email.com``` - configure git email
+* ```git config user.email``` - check email
+
 * ```git status```
 * ```git add .```
 * ```git add <{fileName}.java>```

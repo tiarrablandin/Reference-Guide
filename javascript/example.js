@@ -141,7 +141,6 @@ console.log(content[0[0]]);
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Destructuring Arrays
-
 const userNameData = ["Tiarra", "Blandin"]
 
 const firstName = userNameData[0];
@@ -154,7 +153,6 @@ const [firstName1, lastName1] = ["Tiarra", "Blandin"]
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Destructuring Objects
-
 const user2 = {
   name: "Tiarra",
   age: 34
@@ -171,7 +169,6 @@ const {name2, age2} = {
 };
 
 // With Alias
-
 const {name3: nickname, age3} = {
   name3: "Tiarra",
   age3: 34

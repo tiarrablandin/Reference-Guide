@@ -1,3 +1,9 @@
+# Homebrew
+
+* ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``` - install homebrew
+* ```brew update``` - update homebrew
+
+
 # Shell Commands
 
 * ```cd``` - change directory
