@@ -23,6 +23,13 @@
 * ```q``` - takes me out of read mode
 * ```command c``` - cancel
 
+* ```java -version``` - check java version
+
+## JShell
+
+* ```jshell``` - to launch jshell in terminal
+* ```/exit``` - to exit jshell
+
 ### Compile & Run
 
 * ```javac <{fileName}>.java``` - compile
