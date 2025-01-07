@@ -25,20 +25,20 @@
 
 * ```java -version``` - check java version
 
+## Homebrew
+
+* ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``` - install homebrew
+* ```brew update``` - update homebrew
+
 ## JShell
 
 * ```jshell``` - to launch jshell in terminal
 * ```/exit``` - to exit jshell
 
-### Compile & Run
+### Compile & Run w/o JShell
 
 * ```javac <{fileName}>.java``` - compile
 * ```java <{fileName}>``` - run
-
-## Homebrew
-
-* ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``` - install homebrew
-* ```brew update``` - update homebrew
 
 ## Access Commands
 

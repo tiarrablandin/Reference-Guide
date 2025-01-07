@@ -1,0 +1,76 @@
+# Operating system generated files
+*.swp
+*.bak
+*.tmp
+*.log
+*~
+*.DS_Store
+
+# IDE generated files
+.vscode/
+*.suo
+*.user
+*.sln
+*.csproj
+*.userprefs
+*.tmp_proj
+*.vspscc
+*.scc
+*.ncb
+*.sdf
+*.opendb
+*.pdb
+*.ipch
+*.obj
+*.user
+*.dll
+*.exe
+*.vsix
+*.vsixmanifest
+*.pyc
+*.pyo
+
+# Build artifacts
+build/
+dist/
+lib/
+bin/
+objects/
+
+# Testing
+test/
+tests/
+coverage/
+
+# Documentation
+docs/_build/
+
+# IDE specific files
+.idea/
+.project
+.classpath
+.settings/
+
+# Virtual environments
+.venv/
+venv/
+.virtualenvs/
+
+# Package managers
+node_modules/
+yarn.lock
+package-lock.json
+
+# Database files
+*.sqlite
+*.db
+*.sql
+*.mdb
+
+# Local configuration
+.env
+.local.env
+.env.*
+
+# Editor settings
+.editorconfig
