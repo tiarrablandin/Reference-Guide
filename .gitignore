@@ -4,7 +4,7 @@
 *.tmp
 *.log
 *~
-*.DS_Store
+.DS_Store
 
 # IDE generated files
 .vscode/
